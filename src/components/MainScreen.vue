@@ -9,7 +9,9 @@ const imageList = [
     "Hearts.png",
     "Spades.png",
     "Clubs.png"
-].map((v) => `/public/img/${v}`)
+].map((v) => new URL(`/img/${v}`, import.meta.url).href);
+
+console.log(imageList)
 </script>
 
 <template>

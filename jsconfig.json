@@ -1,9 +1,0 @@
-{
-  "compilerOptions": {
-    "baseUrl": "./",  // Ensure base URL is the root of your project
-    "paths": {
-      "/": ["public/*"]  // Map '/' to 'public/*'
-    }
-  },
-  "include": ["src/**/*"]  // Ensure this includes your source folder
-}

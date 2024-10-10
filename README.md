@@ -1,6 +1,6 @@
 # Luck be a Landlord Theme Editor
 
-![Coffee Essence](/public/img/Coffee_Essence.png)
+![Coffee Essence](/img/Coffee_Essence.png)
 
 A simple website made to simplify the theme customization process within Luck be a landlord, with live-preview and export file (Not yet implemented).
 
