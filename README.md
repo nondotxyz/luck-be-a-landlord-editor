@@ -1,5 +1,17 @@
-# Vue 3 + Vite
+# Luck be a Landlord Theme Editor
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+![Coffee Essence](/public/img/Coffee_Essence.png)
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+A simple website made to simplify the theme customization process within Luck be a landlord, with live-preview and export file (Not yet implemented).
+
+Feedback are welcome.
+
+## FEATURE
+- The main game customization screen
+- The item & symbols customization screen
+
+## How do I see the colors I already set?
+
+Not yet implemented but you can install the vue developer extension, open the project with the extension enabled, go to the App props and copy the colors_3 object
+
+Or you can wait till I implemented it lol.
