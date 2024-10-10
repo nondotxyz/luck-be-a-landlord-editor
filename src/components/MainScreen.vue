@@ -4,14 +4,13 @@ defineProps({
 })
 
 const imageList = [
-    "Wildcard.png",
-    "Diamonds.png",
-    "Hearts.png",
-    "Spades.png",
-    "Clubs.png"
-].map((v) => new URL(`/img/${v}`, import.meta.url).href);
+    new URL("/img/Wildcard.png", import.meta.url).href,
+    new URL("/img/Diamonds.png", import.meta.url).href,
+    new URL("/img/Hearts.png", import.meta.url).href,
+    new URL("/img/Spades.png", import.meta.url).href,
+    new URL("/img/Clubs.png", import.meta.url).href,
+];
 
-console.log(imageList)
 </script>
 
 <template>
